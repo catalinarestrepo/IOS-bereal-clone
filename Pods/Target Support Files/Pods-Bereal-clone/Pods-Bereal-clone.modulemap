@@ -1,0 +1,6 @@
+framework module Pods_Bereal_clone {
+  umbrella header "Pods-Bereal-clone-umbrella.h"
+
+  export *
+  module * { export * }
+}
