@@ -27,7 +27,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWMyNDMyY2IwMzFkMjI0MTgwMTRiMzExMGRlMTQwYzhkZTYwYWUzMSZjdD1n/ScNyNDZ1kHx2jKZO9w/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![Screenshot](https://github.com/Khiem17204/IOS-bereal-clone/blob/main/Kapture%202023-03-26%20at%2023.50.02.gif)
 
 ## License
 
