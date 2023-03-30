@@ -142,14 +142,11 @@
                                                             <subviews>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lPY-cf-CCo">
                                                                     <rect key="frame" x="0.0" y="0.0" width="393" height="393"/>
-                                                                    <constraints>
-                                                                        <constraint firstAttribute="width" secondItem="lPY-cf-CCo" secondAttribute="height" multiplier="1:1" id="scj-0o-zfG"/>
-                                                                    </constraints>
                                                                 </imageView>
                                                                 <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kuP-0U-sDA">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="393" height="0.0"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="393" height="393"/>
                                                                     <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Iph-9w-gde">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="393" height="0.0"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="393" height="393"/>
                                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                     </view>
                                                                     <blurEffect style="regular"/>
@@ -157,15 +154,15 @@
                                                             </subviews>
                                                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                             <constraints>
-                                                                <constraint firstItem="kuP-0U-sDA" firstAttribute="top" secondItem="sic-H8-Hb4" secondAttribute="top" id="1wW-aE-FRZ"/>
-                                                                <constraint firstAttribute="width" secondItem="sic-H8-Hb4" secondAttribute="height" multiplier="1:1" id="DL7-H6-6ro"/>
-                                                                <constraint firstItem="kuP-0U-sDA" firstAttribute="leading" secondItem="sic-H8-Hb4" secondAttribute="leading" id="JmC-ME-ZKe"/>
-                                                                <constraint firstItem="lPY-cf-CCo" firstAttribute="top" secondItem="kuP-0U-sDA" secondAttribute="bottom" id="N11-jY-q89"/>
-                                                                <constraint firstItem="lPY-cf-CCo" firstAttribute="leading" secondItem="sic-H8-Hb4" secondAttribute="leading" id="RRa-KG-2aH"/>
-                                                                <constraint firstAttribute="bottom" secondItem="lPY-cf-CCo" secondAttribute="bottom" id="Ru3-Kc-G7F"/>
-                                                                <constraint firstItem="lPY-cf-CCo" firstAttribute="top" secondItem="kuP-0U-sDA" secondAttribute="bottom" id="VC2-XD-etZ"/>
-                                                                <constraint firstAttribute="trailing" secondItem="kuP-0U-sDA" secondAttribute="trailing" id="iuQ-Ln-zlr"/>
-                                                                <constraint firstAttribute="trailing" secondItem="lPY-cf-CCo" secondAttribute="trailing" id="j3E-Ve-ibg"/>
+                                                                <constraint firstItem="kuP-0U-sDA" firstAttribute="top" secondItem="sic-H8-Hb4" secondAttribute="top" id="5qJ-gM-y6g"/>
+                                                                <constraint firstAttribute="width" secondItem="sic-H8-Hb4" secondAttribute="height" multiplier="1:1" id="6RK-hX-GIP"/>
+                                                                <constraint firstItem="kuP-0U-sDA" firstAttribute="leading" secondItem="sic-H8-Hb4" secondAttribute="leading" id="JOs-Tn-WXQ"/>
+                                                                <constraint firstAttribute="trailing" secondItem="kuP-0U-sDA" secondAttribute="trailing" id="Wic-07-LEM"/>
+                                                                <constraint firstItem="lPY-cf-CCo" firstAttribute="leading" secondItem="sic-H8-Hb4" secondAttribute="leading" id="a6O-cE-G3R"/>
+                                                                <constraint firstItem="lPY-cf-CCo" firstAttribute="top" secondItem="sic-H8-Hb4" secondAttribute="top" id="heN-4m-rDB"/>
+                                                                <constraint firstAttribute="trailing" secondItem="lPY-cf-CCo" secondAttribute="trailing" id="l1f-m7-XQN"/>
+                                                                <constraint firstAttribute="bottom" secondItem="kuP-0U-sDA" secondAttribute="bottom" id="p2A-iK-MNB"/>
+                                                                <constraint firstAttribute="bottom" secondItem="lPY-cf-CCo" secondAttribute="bottom" id="wSF-DI-z62"/>
                                                             </constraints>
                                                         </view>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="j1C-3g-cxg">
@@ -201,7 +198,7 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
-                                            <outlet property="blur" destination="kuP-0U-sDA" id="ZIV-87-fMo"/>
+                                            <outlet property="blur" destination="kuP-0U-sDA" id="RqR-Yf-rno"/>
                                             <outlet property="caption" destination="x2Z-ZC-yOq" id="YYA-bK-rM6"/>
                                             <outlet property="dates" destination="qKb-ps-vx9" id="mP2-bj-wBi"/>
                                             <outlet property="postImage" destination="lPY-cf-CCo" id="SQ2-rG-FyH"/>
@@ -251,15 +248,23 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="36" translatesAutoresizingMaskIntoConstraints="NO" id="6bu-JA-J33">
-                                <rect key="frame" x="0.0" y="127" width="393" height="463"/>
+                                <rect key="frame" x="0.0" y="127" width="393" height="533.33333333333337"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Write your caption here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2mE-NV-ZRZ">
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ak-yD-pWv">
+                                        <rect key="frame" x="0.0" y="70" width="393" height="34.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Take Photos"/>
+                                        <connections>
+                                            <action selector="takePhoto:" destination="aBj-Sz-XDs" eventType="touchUpInside" id="5a9-Km-JQb"/>
+                                        </connections>
+                                    </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo.artframe" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="t49-rq-Men">
-                                        <rect key="frame" x="0.0" y="71.666666666666629" width="393" height="390"/>
+                                        <rect key="frame" x="0.0" y="142" width="393" height="390"/>
                                         <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="t49-rq-Men" secondAttribute="height" multiplier="1:1" id="Ocd-Ys-JP8"/>
