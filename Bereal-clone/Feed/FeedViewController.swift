@@ -70,6 +70,7 @@ class FeedViewController: UIViewController {
     }
     
     @objc private func onPullToRefresh() {
+        refreshControl.tintColor = .white
         refreshControl.beginRefreshing()
         queryPosts { [weak self] in
             self?.refreshControl.endRefreshing()
