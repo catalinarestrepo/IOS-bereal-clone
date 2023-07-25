@@ -9,7 +9,7 @@
  
 **Incoming** features:
 
-- [ ] User receive notifcation when it is time to post
+- [x] User receive notifcation when it is time to post
 - [ ] Users can make comments and view comments in posts	
 
 ## Video Walkthrough
