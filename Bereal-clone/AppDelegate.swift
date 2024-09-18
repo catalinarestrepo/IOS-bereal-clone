@@ -1,13 +1,7 @@
-//
-//  AppDelegate.swift
-//  Bereal-clone
-//
-//  Created by Khiem Tran Le on 3/26/23.
-//
+
 
 import UIKit
 import ParseSwift
-
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,8 +10,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        ParseSwift.initialize(applicationId: "SUPVwdC5CCPljStALNVE5HgGkG8zOs4OEDRIW2PT",
-                              clientKey: "wU3r9cIfdV6t3FKa3mGNNFiQ2nZ4lWuYbHkC7JvC",
+        
+        
+        ParseSwift.initialize(
+            
+                            applicationId: "Cb7wRNpv7pXEkCyVnOCCqRseiVaUu4cyxDdRsm0A",
+                              clientKey: "AjmM9P3FrWUW7dkuXpmxIoVj6JJKhP2zwhSASuMq",
                               serverURL: URL(string: "https://parseapi.back4app.com")!)
         return true
     }

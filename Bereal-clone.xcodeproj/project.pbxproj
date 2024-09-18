@@ -20,11 +20,9 @@
 		162E679429D0DD70003290F2 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E679329D0DD70003290F2 /* PostCell.swift */; };
 		162E679629D0DD89003290F2 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E679529D0DD89003290F2 /* PostViewController.swift */; };
 		162E679829D0DDA4003290F2 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E679729D0DDA4003290F2 /* DateFormatter.swift */; };
-		66017A3CE46A7B68F7FA703C /* Pods_Bereal_clone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 105933D7B2D13DD7886E0286 /* Pods_Bereal_clone.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		105933D7B2D13DD7886E0286 /* Pods_Bereal_clone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bereal_clone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		162E676F29D0C53E003290F2 /* Bereal-clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bereal-clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		162E677229D0C53E003290F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		162E677429D0C53E003290F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,7 +47,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66017A3CE46A7B68F7FA703C /* Pods_Bereal_clone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,7 +144,6 @@
 		FAD965C7D1BCC6E617F8F7F9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				105933D7B2D13DD7886E0286 /* Pods_Bereal_clone.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -182,7 +178,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					162E676E29D0C53E003290F2 = {
 						CreatedOnToolsVersion = 14.2;
@@ -338,6 +334,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -398,6 +395,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -424,9 +422,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FV74JVV3CP;
+				DEVELOPMENT_TEAM = 56R7AT833S;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Bereal-clone/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to access your camera in order to take pictures.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -438,7 +437,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "khiemle.Bereal-clone";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bereal-clone";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -454,9 +453,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FV74JVV3CP;
+				DEVELOPMENT_TEAM = 56R7AT833S;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Bereal-clone/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to access your camera in order to take pictures.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -468,7 +468,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "khiemle.Bereal-clone";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bereal-clone";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

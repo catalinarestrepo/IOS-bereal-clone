@@ -1,9 +1,3 @@
-//
-//  PostViewController.swift
-//  Bereal-clone
-//
-//  Created by Khiem Tran Le on 3/26/23.
-//
 
 import UIKit
 import ParseSwift
